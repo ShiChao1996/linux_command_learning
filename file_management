@@ -18,3 +18,34 @@
 * rmdir  remove dir 删除空目录. 如果删除非空目录 `rm -r`
 
 #### 关于执行文件路径的变量: $PATH
+> 之前用过的 `ls` 其实也是一个文件，所在目录为 `/bin/ls`,
+但是为什么在每个目录下都能用这条命令呢？ --- `$PATH`
+
+> 执行以下命令
+```
+echo $PATH
+```
+输出： 
+>/Users/lovae/Library/Android/sdk/platform-tools:/Users/lovae/Library/Android/sdk/tools:
+>/Users/lovae/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/go/bin
+
+会看到本机环境变量, `/bin` 目录在每个地方都有，所以都能访问到 `ls`
+
+>`$` 表示后面加一个变量
+
+### 文件与目录管理
+#### 查看文件与目录： ls
+参数：
+* `-a`  全部文件，连同隐藏文件
+* `-A`  全部文件，除了 `.`  `..`
+* `-d`  列出目录本身(???)
+* `-f`  直接列出结果，不排序（ls 默认按文件名排序）
+* `F`   给出附加数据结构：`*:` => 可执行文件； `/` => 目录；`=` =>socket文件；`|` => FIFO文件
+* `-h`  将文件容量表示成 B、 KB、 GB 的形式
+* `-i`
+* `-l`  列出长数据串，包含文件属性与权限
+* `-n`  列出 UID 与 GID
+* `-R`  连同子内容一起列出
+* `-S`  大小排序
+* `-t`  时间排序
+* `--full-time`  完整时间格式
