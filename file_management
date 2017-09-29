@@ -49,3 +49,49 @@ echo $PATH
 * `-S`  大小排序
 * `-t`  时间排序
 * `--full-time`  完整时间格式
+
+#### 复制、删除、移动
+##### cp 复制
+```
+cp source destination
+cp [options] source1 source2 ... directory
+``` 
+参数：
+* `-a`  pdr,所有数据特性完全一样
+* `-d`  若源文件为 link 文件，则复制文件属性而不是文件本身
+* `-f`  force，若文件已存在且无法打开，则删除后再尝试一次
+* `-i`  若文件已存在，则覆盖前先询问
+* `-l`  
+* `-p`  [property]连同文件属性一起复制
+* `-r`  递归复制，连同子目录
+* `-s`  symbol 复制成符号连接文件
+* `-u`  destination 比 source 旧才更新
+
+##### rm 删除
+参数：
+* `-f`  force,忽略不存在的文件
+* `-i`  互动模式，删除前询问
+* `-r`  递归删除
+
+```
+rm  -i bashrc*
+// 删除bashrc开头的所有文件
+
+rmdir 删除目录
+```
+##### mv 移动/重命名
+```
+mv source destination
+mv [options] source1 source2 ... directory
+```
+
+参数：
+* `-f`  force 
+* `-i`  若目标已存在，询问是否覆盖
+* `-u`  当source 比 destination 新才覆盖
+
+##### 取得路径的文件名与目录名称
+```
+basename path  //取得最后的文件名
+dirname path   //取得文件名前的目录名
+```
