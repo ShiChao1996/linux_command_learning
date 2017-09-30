@@ -157,3 +157,61 @@ chmod a-x .bashrc
 uname -r
 //查看实际的内核版本
 ```
+
+### 文件内容的查阅
+#### 直接查看文件内容
+###### cat （concatenate: 连续）
+参数：
+* `-A`
+* `-b`
+* `-E`
+* `-n`
+* `-T`
+* `-v`
+
+###### tac (cat 的反向，从最后一行开始输出)
+###### nl （略）
+
+#### 翻页查看
+###### more
+```
+more /etc/man.config
+```
+#### 数据选取
+###### head
+> 取出前面几行。
+参数：
+* `-n` 后面接数字，表示几行
+```
+head -n 20 filename
+```
+
+###### tail
+> 取出后几行
+```
+tail -n 20 filename
+```
+
+#### 非纯文本文件： od
+> 前面命令读取二进制文件会乱码，但是可以用 `od` 这个命令
+
+参数： 
+* `-t` type, 后面接各种类型的输出： a => 默认字符； c => ascll字符输出； d、f、o、x=> 十进制、浮点数、八进制、十六进制
+
+#### 修改文件时间或创建新文件： touch
+> 每个linux 文件会有三个时间
+* modification time （mtime）  更改内容的时间
+* status time   （ctime）文件权限和属性改变的时间
+* access time   （atime）文件被读取的时间
+
+```
+ls -l filename
+ls -l --time=atime filename
+ls -l --time=ctime filename
+```
+###### touch
+参数：
+* `-a` 仅修改访问时间
+* `-c` 仅修改访问时间、若文件不存在不创建新文件
+* `-m` 仅修改mtime
+* `-t` 修改时间，格式为[YYMMDDhhmm]
