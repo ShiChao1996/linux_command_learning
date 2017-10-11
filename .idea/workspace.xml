@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="573fb4b6-7656-4a36-b20e-c3e0118dac69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/file.md" afterPath="$PROJECT_DIR$/file.md" />
-    </list>
+    <list default="true" id="573fb4b6-7656-4a36-b20e-c3e0118dac69" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,13 +16,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="file.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/file.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="588">
+              <first_editor relative-caret-position="520">
                 <caret line="265" column="12" lean-forward="false" selection-start-line="265" selection-start-column="12" selection-end-line="265" selection-end-column="12" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_summary.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog_summary.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="520">
+                <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+                <folding>
+                  <marker date="1507737011000" expanded="true" signature="967:1113" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="986:1105" ph="{&quot;type&quot;: &quot;TEST_ACTION&quot;...}" />
+                  <marker date="1507737011000" expanded="true" signature="1269:1286" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="1343:1633" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="1368:1631" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="1403:1627" ph="..." />
+                  <marker date="1507737011000" expanded="true" signature="1478:1526" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="1530:1576" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="2690:2754" ph="..." />
+                  <marker date="1507737011000" expanded="true" signature="2851:2889" ph="{&quot;admin&quot;: admin...}" />
+                  <marker date="1507737011000" expanded="true" signature="2981:3013" ph="{&quot;token&quot;: ''...}" />
+                  <marker date="1507737011000" expanded="true" signature="3068:3322" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="3093:3303" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="3123:3218" ph="..." />
+                  <marker date="1507737011000" expanded="true" signature="3249:3299" ph="..." />
+                  <marker date="1507737011000" expanded="true" signature="3365:3427" ph="..." />
+                  <marker date="1507737011000" expanded="true" signature="3569:3635" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="3580:3632" ph="{&quot;type&quot;: Actions.USER_LOGIN...}" />
+                  <marker date="1507737011000" expanded="true" signature="3655:3705" ph="{...}" />
+                  <marker date="1507737011000" expanded="true" signature="3666:3702" ph="{&quot;type&quot;: Actions.USER_LOGOUT...}" />
+                  <marker date="1507737011000" expanded="true" signature="3728:3750" ph="{&quot;login&quot;: login...}" />
+                  <marker date="1507737011000" expanded="true" signature="3788:4130" ph="{&quot;USER_LOGIN&quot;: &quot;USER_LOGIN&quot;...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -52,9 +85,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog_summary.md" />
         <option value="$PROJECT_DIR$/file_management" />
         <option value="$PROJECT_DIR$/file.md" />
+        <option value="$PROJECT_DIR$/blog_summary.md" />
       </list>
     </option>
   </component>
@@ -179,6 +212,9 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -235,12 +271,12 @@
       <workItem from="1506610103565" duration="3141000" />
       <workItem from="1506695796606" duration="6335000" />
       <workItem from="1506956572891" duration="458000" />
-      <workItem from="1507734757118" duration="1809000" />
+      <workItem from="1507734757118" duration="2044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19214000" />
+    <option name="totallyTimeSpent" value="19449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -451,22 +487,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog_summary.md">
+    <entry file="file://$PROJECT_DIR$/file.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="549">
-            <caret line="81" column="6" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+          <first_editor relative-caret-position="520">
+            <caret line="265" column="12" lean-forward="false" selection-start-line="265" selection-start-column="12" selection-end-line="265" selection-end-column="12" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file.md">
+    <entry file="file://$PROJECT_DIR$/blog_summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="588">
-            <caret line="265" column="12" lean-forward="false" selection-start-line="265" selection-start-column="12" selection-end-line="265" selection-end-column="12" />
-            <folding />
+          <first_editor relative-caret-position="520">
+            <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+            <folding>
+              <marker date="1507737011000" expanded="true" signature="967:1113" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="986:1105" ph="{&quot;type&quot;: &quot;TEST_ACTION&quot;...}" />
+              <marker date="1507737011000" expanded="true" signature="1269:1286" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="1343:1633" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="1368:1631" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="1403:1627" ph="..." />
+              <marker date="1507737011000" expanded="true" signature="1478:1526" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="1530:1576" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="2690:2754" ph="..." />
+              <marker date="1507737011000" expanded="true" signature="2851:2889" ph="{&quot;admin&quot;: admin...}" />
+              <marker date="1507737011000" expanded="true" signature="2981:3013" ph="{&quot;token&quot;: ''...}" />
+              <marker date="1507737011000" expanded="true" signature="3068:3322" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="3093:3303" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="3123:3218" ph="..." />
+              <marker date="1507737011000" expanded="true" signature="3249:3299" ph="..." />
+              <marker date="1507737011000" expanded="true" signature="3365:3427" ph="..." />
+              <marker date="1507737011000" expanded="true" signature="3569:3635" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="3580:3632" ph="{&quot;type&quot;: Actions.USER_LOGIN...}" />
+              <marker date="1507737011000" expanded="true" signature="3655:3705" ph="{...}" />
+              <marker date="1507737011000" expanded="true" signature="3666:3702" ph="{&quot;type&quot;: Actions.USER_LOGOUT...}" />
+              <marker date="1507737011000" expanded="true" signature="3728:3750" ph="{&quot;login&quot;: login...}" />
+              <marker date="1507737011000" expanded="true" signature="3788:4130" ph="{&quot;USER_LOGIN&quot;: &quot;USER_LOGIN&quot;...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
